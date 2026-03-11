@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="3e5a7dae-d981-4f3f-b9c7-886cd007f2db" name="Changes" comment="teste">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Python_exercicio_facu.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/exercicios-faculdade-python.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio5.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio6.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio7.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista1/exercicio8.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/python_lista02.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/exercicio1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/exercicio2.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/exercicio3.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algoritmos-lista2/exercicio4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_exercicio_forafacu/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_exercicio_forafacu/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_exercicio_forafacu/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Python_exercicio_forafacu/main.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ArthurVieiraRebelo&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ArthurVieiraRebelo/exercicios-faculdade-python.git&quot;,
+    &quot;accountId&quot;: &quot;5d8802e2-c200-4609-8268-dd683be1c777&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="3AoExY3QVEKjRtdcWqT1hmV4UJ6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "ai.playground.ignore.import.keys.banner.in.settings": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/arthu/PycharmProjects/exercicios-faculdade-python/Python_exercicio_facu",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.31033.139" />
+        <option value="bundled-python-sdk-2653e85de345-6d6dccd035ac-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.31033.139" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e5a7dae-d981-4f3f-b9c7-886cd007f2db" name="Changes" comment="" />
+      <created>1773250769598</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773250769598</updated>
+      <workItem from="1773250770908" duration="57000" />
+      <workItem from="1773250846222" duration="533000" />
+    </task>
+    <task id="LOCAL-00001" summary="teste">
+      <option name="closed" value="true" />
+      <created>1773250956663</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773250956663</updated>
+    </task>
+    <task id="LOCAL-00002" summary="teste">
+      <option name="closed" value="true" />
+      <created>1773251020517</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773251020517</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="teste" />
+    <option name="LAST_COMMIT_MESSAGE" value="teste" />
+  </component>
+</project>
