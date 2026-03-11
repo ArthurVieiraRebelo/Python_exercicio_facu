@@ -1,13 +1,10 @@
 nota = float(input("Digite a nota do aluno: "))
 
-aprovado = 60 <= nota <= 100
-reprovado = 0 <= nota > 60
-
-if aprovado == True:
-    print("Aprovado!")
+if 60 <= nota <= 100:
+    print("Aprovado")
 else:
-    if reprovado == True:
-        print("Reprovado!")
+    if 0 <= nota < 60 :
+        print("Reprovado")
     else:
-        if nota > 100 or nota < 0 :
-            print("Nota invalida!")
+        if (0 > nota) or (nota > 100) :
+            print("Nota invalida")
