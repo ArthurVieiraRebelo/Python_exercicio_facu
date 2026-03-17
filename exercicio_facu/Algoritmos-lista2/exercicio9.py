@@ -1,41 +1,47 @@
+#nformar o número do mês do ano e mostrar o nome do mês por extenso. Caso o número do mês não exista, exibir a mensagem
+# "Mês inválido".
+
 n_mes = int(input("Digite o número do mês: "))
 
-if n_mes > 12 or n_mes < 1 :
+if n_mes > 12 :
     print("Mês inválido!")
 else:
-    if n_mes == 1:
-        print("Janeiro")
+    if n_mes < 1:
+        print("Mês inválido!")
     else:
-        if n_mes == 2:
-            print("Fevereiro")
+        if n_mes == 1:
+            print("Janeiro")
         else:
-            if n_mes == 3:
-                print("Março")
+            if n_mes == 2:
+                print("Fevereiro")
             else:
-                if n_mes == 4:
-                    print("Abril")
+                if n_mes == 3:
+                    print("Março")
                 else:
-                    if n_mes == 5:
-                        print("Maio")
+                    if n_mes == 4:
+                        print("Abril")
                     else:
-                        if n_mes == 6:
-                            print("Junho")
+                        if n_mes == 5:
+                            print("Maio")
                         else:
-                            if n_mes == 7:
-                                print("Julho")
+                            if n_mes == 6:
+                                print("Junho")
                             else:
-                                if n_mes == 8:
-                                    print("Agosto")
+                                if n_mes == 7:
+                                    print("Julho")
                                 else:
-                                    if n_mes == 9:
-                                        print("Setembro")
+                                    if n_mes == 8:
+                                        print("Agosto")
                                     else:
-                                        if n_mes == 10:
-                                            print("Outubro")
+                                        if n_mes == 9:
+                                            print("Setembro")
                                         else:
-                                            if n_mes == 11:
-                                                print("Novembro")
+                                            if n_mes == 10:
+                                                print("Outubro")
                                             else:
-                                                if n_mes == 12:
-                                                    print("Dezembro")
+                                                if n_mes == 11:
+                                                    print("Novembro")
+                                                else:
+                                                    if n_mes == 12:
+                                                        print("Dezembro")
 
