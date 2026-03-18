@@ -18,7 +18,6 @@
 #a taxa de juros correspondente.
 
 tempo_mantido = float(input("Digite quantos anos você deixou seu dinheiro mantido no fundo: "))
-
 if tempo_mantido < 0:
     print("Tempo inválido")
 else:

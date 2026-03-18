@@ -3,15 +3,17 @@
 # receberão aumento de 20%.
 
 salario_atual = float(input("Digite seu salario atual: "))
-quantidade_de_anos= float(input("Digite quantos anos você trabalha na empresa: "))
+quantidade_de_anos= int(input("Digite quantos anos você trabalha na empresa: "))
 
-if quantidade_de_anos < 0:
-    print("Qunatidade de anos invalida!")
+if salario_atual < 0:
+    print("Salario inválido")
 else:
-    if quantidade_de_anos <= 1 :
-        salario_ate_1ano = salario_atual * 1.1
-        print(f"Seu novo salário será de: R${salario_ate_1ano}")
+    if quantidade_de_anos < 0:
+        print("Quantidadde de anos invalida!")
     else:
-         if quantidade_de_anos > 1:
-            salario_1ano_mais = salario_atual * 1.2
-            print(f"Seu novo salário será de: R${salario_1ano_mais}")
+        if quantidade_de_anos <= 1 :
+            percentual = 1.1
+        else:
+            percentual = 1.2
+        salario_reajustado = salario_atual * percentual
+        print("Seu novo salário será = ", salario_reajustado)

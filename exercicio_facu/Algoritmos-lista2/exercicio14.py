@@ -8,7 +8,7 @@ nome = input("Digite seu nome: ")
 nota_prova1 = float(input("Digite sua nota na prova: "))
 nota_prova2 = float(input("Digite sua nota na segunda prova: "))
 nota_trabalho = float(input("Digite sua nota no trabalho: "))
-frequencia = int(input("Digite sua frequência"))
+frequencia = int(input("Digite sua frequência: "))
 
 media_ponderada = (nota_prova1 * 3) + (nota_prova2 * 5) + (nota_trabalho * 2) / 10
 

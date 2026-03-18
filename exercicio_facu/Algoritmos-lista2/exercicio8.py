@@ -24,7 +24,6 @@ else:
                 if idade <= 64:
                     print("Você é adulto")
                 else:
-                    if idade >= 65:
-                        print("Você é idosa")
+                    print("Você é idosa")
 
 

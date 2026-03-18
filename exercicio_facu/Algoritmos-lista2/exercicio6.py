@@ -8,5 +8,4 @@ else:
     if numero < 0 :
         print("Esse número é negativo")
     else:
-        if numero == 0 :
-            print("Esse número é Neutro")
+         print("Esse número é Neutro")

@@ -7,7 +7,7 @@ financiamento = float(input("Digite o valor do financiamento: "))
 
 financiamento_concedido = salario * 5
 
-if financiamento <= financiamento_concedido:
-    print("Financiamento Concedido")
-else:
+if financiamento > financiamento_concedido:
     print("Financiamento Negado")
+else:
+    print("Financiamento Concedido")
