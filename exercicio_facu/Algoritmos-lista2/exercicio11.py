@@ -9,10 +9,9 @@ if horas_trabalhadas < 0:
     print("Horas invalidas")
 else:
     if horas_trabalhadas <= 40:
-        salario_40 = horas_trabalhadas * 15
-        print(f"Você receberá na semana: R${salario_40}")
+        salario = horas_trabalhadas * 15
     else:
         if horas_trabalhadas > 40:
             horas_a_mais = horas_trabalhadas - 40
-            salario_40_mais = horas_a_mais * 21 + 600
-            print(f"Você receberá na semana: R${salario_40_mais}")
+            salario = horas_a_mais * 21 + 600
+    print(f"Você receberá na semana: R${salario}")

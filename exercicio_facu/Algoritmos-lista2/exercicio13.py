@@ -16,29 +16,38 @@
 #Usando esta informação, escreva um programa que receba o ano e o peso do modelo de um automóvel e calcule e imprima
 # a classe de peso e a taxa de registro para o carro.
 
-ano_do_carro = int(input("Digite o ano de seu carro: "))
-peso_do_carro = int(input("Digite o seu peso do carro em Kg: "))
+ano = int(input("Digite o ano de seu carro: "))
+peso = int(input("Digite o seu peso do carro em Kg: "))
 
-if ano_do_carro <= 1970:
-    if peso_do_carro < 1200:
-        print("A classe dele é 1 e a taxa de registro é 16,50")
+if ano <= 1970:
+    if peso < 1200:
+        classe = 1
+        taxa = 16.50
     else:
-        if peso_do_carro <= 1700:
-            print("A classe dele é 2 e a taxa de registro é 25,50")
+        if peso <= 1700:
+            classe = 2
+            taxa = 25.5
         else:
-            print("A classe dele é 3 e a taxa de registro é 46,50")
+            classe = 3
+            taxa = 46.5
 else:
-    if ano_do_carro <= 1979:
-        if peso_do_carro < 1200:
-            print("A classe dele é 4 e a taxa de registro é 27,00")
+    if ano <= 1979:
+        if peso < 1200:
+            classe = 4
+            taxa = 27.0
         else:
-            if peso_do_carro <= 1700:
-                print("A classe dele é 5 e a taxa de registro é 30,50")
+            if peso <= 1700:
+                classe = 5
+                taxa = 30.50
             else:
-                print("A classe dele é 6 e a taxa de registro é 52,50")
+                classe = 6
+                taxa = 52.50
     else:
-        if ano_do_carro >= 1980:
-            if peso_do_carro < 1600:
-                print("A classe dele é 7 e a taxa de registro é 19,50")
-            else:
-                print("A classe dele é 8 e a taxa de registro é 55,50")
+        if peso < 1600:
+            classe = 7
+            taxa = 19.5
+        else:
+            classe = 8
+            taxa = 55.5
+print("Classe = ", classe)
+print("Taxa = ", taxa)

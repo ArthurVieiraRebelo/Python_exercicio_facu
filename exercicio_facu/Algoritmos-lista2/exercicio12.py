@@ -22,19 +22,20 @@ if tempo_mantido < 0:
     print("Tempo inválido")
 else:
     if tempo_mantido < 1:
-        print("Sua taxa de juros é de 0,55%")
+        taxa = 0.55
     else:
         if tempo_mantido < 2:
-            print("Sua taxa de juros é de 0,65%")
+            taxa = 0.65
         else:
             if tempo_mantido < 3:
-                print("Sua taxa de juros é de 0,75%")
+                taxa = 0.75
             else:
                 if tempo_mantido < 4:
-                    print("Sua taxa de juros é de 0,85%")
+                    taxa = 0.85
                 else:
                     if tempo_mantido < 5:
-                        print("Sua taxa de juros é de 0,90%")
+                        taxa = 0.90
                     else:
                         if tempo_mantido >= 5:
-                            print("Sua taxa de juros é de 0,95%")
+                            taxa = 0.95
+    print(taxa)

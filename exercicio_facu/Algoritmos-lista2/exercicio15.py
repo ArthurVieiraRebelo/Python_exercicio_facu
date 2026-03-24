@@ -14,7 +14,6 @@ else:
         if numero_2 < numero_3:
             if numero_2 < numero_4:
                 print(numero_2)
-
 if numero_3 < numero_1:
     if numero_3 < numero_2:
         if numero_3 < numero_4:
