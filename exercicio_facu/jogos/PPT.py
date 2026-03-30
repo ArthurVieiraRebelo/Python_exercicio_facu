@@ -6,15 +6,15 @@ player = pedra_papel_tesoura
 
 computador = randint(0,2)
 
-if player > 2 and player < 0:
+if player > 2 or player < 0:
     print("Número invalido")
 else:
-    if player > computador:
-        condicao = "Você Venceu!"
+    if player == computador:
+        condicao = "Empate"
     else:
-        if player < computador:
-           condicao = "Mais sorte da próxima vez"
+        if player == 0 and computador == 1 or player == 1 and computador == 2 or player == 2 and computador == 0 :
+            condicao = "Você Venceu!"
         else:
-            condicao = "Empate"
+            condicao = "Mais sorte da proxima vez!"
     print("O computador escolheu: " ,computador)
     print(condicao)
