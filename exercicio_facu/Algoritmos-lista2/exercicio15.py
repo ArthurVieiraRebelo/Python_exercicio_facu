@@ -5,20 +5,14 @@ numero_2 = float(input("Digite o segundo numero: "))
 numero_3 = float(input("Digite o terceiro numero: "))
 numero_4 = float(input("Digite o quarto numero: "))
 
-if numero_1 < numero_2:
-    if numero_1 < numero_3:
-        if numero_1 < numero_4:
-           print(numero_1)
+if numero_1 < numero_2 and numero_1 < numero_3 and numero_1 < numero_4:
+    numero = numero_1
 else:
-    if numero_2 < numero_1:
-        if numero_2 < numero_3:
-            if numero_2 < numero_4:
-                print(numero_2)
-if numero_3 < numero_1:
-    if numero_3 < numero_2:
+    if numero_2 < numero_3 and numero_2 < numero_4:
+        numero = numero_2
+    else:
         if numero_3 < numero_4:
-            print(numero_3)
-if numero_4 < numero_1:
-    if numero_4 < numero_2:
-        if numero_4 < numero_3:
-            print(numero_4)
+            numero = numero_3
+        else:
+            numero = numero_4
+print(numero)
