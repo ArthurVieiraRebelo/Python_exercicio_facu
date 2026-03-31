@@ -1,8 +1,8 @@
 from random import *
 
-pedra_papel_tesoura = int(input("Digite um numero de 0 a 2, 0 = Pedra, 1 = Tesoura, 2 = Papel: "))
+print("0 = Pedra, 1 = Tesoura, 2 = Papel")
 
-player = pedra_papel_tesoura
+player= int(input("Digite um numero de 0 a 2: "))
 
 computador = randint(0,2)
 
