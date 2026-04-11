@@ -18,6 +18,7 @@ for i in range(1, quantidade_de_pessoas + 1):
 media_salarial = salario_total / quantidade_de_pessoas
 media_filhos = filhos_total / quantidade_de_pessoas
 percentual_ate_1000 = (pessoas_ate_1000 / quantidade_de_pessoas) * 100
+
 print(f"A média dos salários é {media_salarial}")
 print(f"A média do número de filhos são {media_filhos}")
 print(f"O maior salário é de R${maior_salario}")
