@@ -2,7 +2,7 @@ ze = 130
 chico = 150
 anos = 0
 while chico > ze:
-    chico += 20
-    ze += 30
+    chico += 2
+    ze += 3
     anos += 1
 print(f"Zé passou chico em {anos+1} anos")
