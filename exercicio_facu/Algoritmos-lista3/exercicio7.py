@@ -1,16 +1,14 @@
-populacao = int(input("Digite quantas pessoas irão votar: "))
-
 branco = 0
 nulo = 0
 hugo = 0
 arthur = 0
 felipe = 0
 mateus = 0
+print("1,2,3,4 = voto para os respectivos candidatos; 5 = voto nulo; 6 = voto em branco.")
+voto = int(input("Digite o número correspondente ao seu voto: "))
+while voto != 0:
 
-for i in range(populacao):
-    print("1,2,3,4 = voto para os respectivos candidatos; 5 = voto nulo; 6 = voto em branco.")
-    voto = int(input("Digite o número correspondente ao seu voto: "))
-    if voto > 6 or voto < 1:
+    if voto > 6 or voto < 0:
         print("Número inválido")
     else:
         if voto == 6:
@@ -29,6 +27,8 @@ for i in range(populacao):
                             felipe += 1
                         else:
                             mateus += 1
+    print("1,2,3,4 = voto para os respectivos candidatos; 5 = voto nulo; 6 = voto em branco.")
+    voto = int(input("Digite o número correspondente ao seu voto: "))
 print(f"O candidato hugo recebeu {hugo} votos, O candidato Arthur recebeu {arthur} votos, O candidato Felipe recebeu {felipe} votos, "
       f"O candidato Mateus recebeu {mateus} votos")
 print(f"O total de votos nulos foi de {nulo} votos")

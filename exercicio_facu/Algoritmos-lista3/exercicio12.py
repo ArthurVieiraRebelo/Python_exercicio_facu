@@ -1,13 +1,10 @@
-from random import randint
-
-aleatorio = randint(12,13)
 intervalo1 = 0
 intervalo2 = 0
 intervalo3 = 0
 intervalo4 = 0
 
-for i in range(aleatorio):
-    numero = int(input("Digite um numero: "))
+numero = int(input("Digite um numero: "))
+while numero > 0:
     if numero < 0 or numero > 100:
         print("Numero invalido")
     else:
@@ -21,6 +18,7 @@ for i in range(aleatorio):
                     intervalo3 += 1
                 else:
                     intervalo4 += 1
+    numero = int(input("Digite um numero: "))
 if intervalo1 > 0:
     print(f"A quantidade de números dentre o íntervalo [0,25] é de {intervalo1}")
 if intervalo2 > 0:
