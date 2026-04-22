@@ -1,9 +1,9 @@
 total = 0
 positivo = 0
 negativo =0
-pergunta = "sim"
+pergunta = True
 vezes = 0
-while pergunta == "s" or "S":
+while pergunta:
     vezes += 1
     numero = int(input("Digite um número: "))
     total += numero
@@ -12,6 +12,8 @@ while pergunta == "s" or "S":
     else:
         negativo += 1
     pergunta = str(input("Quer continuar? [S/N] "))
+    if pergunta == "n":
+        pergunta = False
 media = total / vezes
 porcentual_positivo = (positivo / vezes) * 100
 porcentual_negativo = (negativo / vezes) * 100
