@@ -20,17 +20,20 @@ while vidas != 0 and acertos != tamanho:
     print(f"Você tem: {vidas} vidas!")
 
     letra = str(input("Digite uma letra: ")).lower()
-
-    if letra in letras_jogadas:
-        print("Você já jogou essa letra!")
+    quantidade_let = len(letra)
+    if quantidade_let != 1:
+        print("Só pode jogar uma letra por vez!")
     else:
-        if letra in palavra:
-            print("Acertou!")
-            acertos += palavra.count(letra)
+        if letra in letras_jogadas:
+            print("Você já jogou essa letra!")
         else:
-            print("Errou!")
-            vidas += -1
-        letras_jogadas += letra + "-"
+            if letra in palavra:
+                print("Acertou!")
+                acertos += palavra.count(letra)
+            else:
+                print("Errou!")
+                vidas += -1
+            letras_jogadas += letra + "-"
 
 print(f"A palavra é {palavra}")
 if acertos == tamanho:
