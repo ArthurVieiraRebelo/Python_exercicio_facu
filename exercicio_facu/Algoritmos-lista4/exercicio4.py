@@ -1,20 +1,22 @@
-#Escrever uma função contarImpar(n1, n2) que retorna
-#o número de inteiros ímpares que existem entre n1 e
-#n2 (inclusive ambos, se for o caso). A função deve
-#funcionar inclusive se o valor de n2 for menor que n1.
+# 4.	Escrever uma função contarImpar(n1, n2)
+# que retorna o número de inteiros ímpares que
+# existem entre n1 e n2 (inclusive ambos, se for
+# o caso). A função deve funcionar inclusive
+# se o valor de n2 for menor que n1.
+from pip._internal.utils import retry
 
-def contar_impar(n1 , n2):
-    troca = 0
-    impar = 0
-    if n2 < n1:
-        troca = n1
-        n1 = n2
-        n2 = troca
-    for i in range(n1 , n2 + 1):
-        if not i % 2 == 0:
-            impar += 1
-    return impar
+def ordenar_numeros(n1, n2):
+    if n1 < n2:
+        return n1, n2
+    else:
+        return n2, n1
 
-n1 = int(input("Digite um numero inteiro: "))
-n2 = int(input("Digite outro numero inteiro: "))
-print(contar_impar(n1 , n2))
+def contar_impar(n1, n2):
+    n1, n2 = ordenar_numeros(n1, n2)
+    quantidade = 0
+    for i in range(n1, n2 + 1):
+        if i % 2 != 0:
+            quantidade += 1
+    return quantidade
+
+print(contar_impar(20,10))

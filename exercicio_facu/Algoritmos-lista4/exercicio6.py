@@ -4,11 +4,13 @@
 #calcularResto(dividendo, divisor) que retorna o resto.
 
 def calcular_quociente(dividendo, divisor):
-    quociente = dividendo/divisor
+    if divisor != 0:
+        quociente = dividendo // divisor
     return quociente
 
 def calcular_resto(dividendo, divisor):
-    resto = dividendo%divisor
+    if divisor != 0:
+        resto = dividendo % divisor
     return resto
 
 dividendo = int(input("Digite um numero inteiro: "))
