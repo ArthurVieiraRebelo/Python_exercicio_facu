@@ -1,16 +1,23 @@
 # 4. Implemente uma função que ordene um vetor de inteiros de tamanho 10
 
 
-def ordenar_vetor(vetor):
-    if len(vetor) != 0:
-        for j in range(len(vetor)):
-            for i in range(1, len(vetor)):
-                if vetor[i-1] > vetor[i]:
-                    troca = vetor[i]
-                    vetor[i] = vetor[i-1]
-                    vetor[i-1] = troca
+def menor_valor(valores):
+    valor_menor = -1
+    for i in range(len(valores)):
+        if valores[i] < 0:
+            print("Não pode número negativo")
+        else:
+            if valores[i] < valor_menor:
+                valor_menor = valores[i]
+    return valor_menor
 
-        return vetor
+def ordenador(valor_menor):
+    while vetor != []:
+        menor_valor(vetor)
+        ordenado.append(valor_menor)
+        vetor.remove(valor_menor)
 
 vetor = [ 4, 5, 3, 9, 1, 7, 18, 11, 10, 8 ]
-print(ordenar_vetor(vetor))
+ordenado = [ ]
+print(menor_valor(vetor))
+print(ordenador())
