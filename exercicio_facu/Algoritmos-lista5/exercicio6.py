@@ -1,14 +1,15 @@
-# 6.Escrever a função que recebe por parâmetro uma string e um número. A
-# função deve retornar os primeiros caracteres da string de acordo com o
-# número passado por parâmetro
+# 6.	Escrever a função que recebe por
+# parâmetro uma string e um número. A função
+# deve retornar os primeiros caracteres da
+# string de acordo com o número passado por
+# parâmetro.
 
-def retornar_caractere(vetor):
-    if len(vetor) != 0:
-        resultado = ""
-        for i in range(vetor[1]):
-            resultado += (str(vetor[0][i]))
+def exibir_primeiros_caracteres(texto, numero):
+    if numero > len(texto):
+        numero = len(texto)
+    retorno = ""
+    for i in range(numero):
+        retorno += texto[i]
+    return retorno
 
-    return resultado
-
-vetor = ["carros", 3]
-print(retornar_caractere(vetor))
+print(exibir_primeiros_caracteres("UniAcademia", 12))

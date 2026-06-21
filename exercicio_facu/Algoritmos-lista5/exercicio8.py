@@ -1,14 +1,14 @@
-# 8.Implemente uma função que, dado um valor, retorne se esse valor
-# pertence ou não a um vetor de inteiros.
+# 8.	Implemente uma função que, dado um valor,
+# retorne se esse valor pertence ou não a um vetor de
+# inteiros.
 
-valor = int(input("Digite um valor: "))
+def verificar_valor(vetor, valor):
+    achou = False
+    posicao = 0
+    while not achou and posicao <= len(vetor) - 1:
+        if vetor[posicao] == valor:
+            achou = True
+        posicao += 1
+    return achou
 
-def verficar(vetor):
-    if len(vetor) != 0:
-        for i in range(len(vetor)):
-            if valor == vetor[i]:
-                return True
-        return False
-
-vetor = [1, 2, 3, 4, 5]
-print(verficar(vetor))
+print(verificar_valor([1, 2, 3], 5))

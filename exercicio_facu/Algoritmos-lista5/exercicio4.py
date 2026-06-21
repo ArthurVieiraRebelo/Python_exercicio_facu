@@ -11,13 +11,14 @@ def menor_valor(valores):
                 valor_menor = valores[i]
     return valor_menor
 
-def ordenador(valor_menor):
+def ordenador(ordem):
     while vetor != []:
         menor_valor(vetor)
-        ordenado.append(valor_menor)
-        vetor.remove(valor_menor)
-
+        ordenado.append(menor_valor(vetor))
+        vetor.remove(menor_valor(vetor))
+    return ordenado
 vetor = [ 4, 5, 3, 9, 1, 7, 18, 11, 10, 8 ]
 ordenado = [ ]
 print(menor_valor(vetor))
-print(ordenador())
+print(ordenador(menor_valor(vetor)))
+
